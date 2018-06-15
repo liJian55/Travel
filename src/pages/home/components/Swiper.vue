@@ -37,7 +37,7 @@ data:function (){
     width:100%
     height:0
     overflow:hidden
-    padding-bottom:31.25%
+    padding-bottom:26.25%
     .swiperImg
         width:100%
     .swiper-pagination-bullet-active
