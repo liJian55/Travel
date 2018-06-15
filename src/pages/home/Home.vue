@@ -4,6 +4,7 @@
         <home-swiper></home-swiper>
         <HomeIcons></HomeIcons>
         <h1>nihao</h1>
+        。。
     </div>
 </template>
 
