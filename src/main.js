@@ -6,6 +6,7 @@ import router from './router'
 import fastClick from 'fastclick'  // 解决移动端三百毫秒延迟
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'styles/reset.css'
+import 'styles/border.css'
 import 'styles/iconfont.css'
 import 'swiper/dist/css/swiper.css'
 fastClick.attach(document.body)

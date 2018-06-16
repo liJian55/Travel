@@ -1,6 +1,6 @@
 <template>
     <div class="icons">
-        <swiper>
+        <swiper :options="swiperOption">
             <swiper-slide v-for="(page,index) in pages" :key="index">
                     <div class="icon" v-for="item in page" :key="item.id">
                         <div class="icon-img">
@@ -54,7 +54,11 @@ export default {
            id:'0009',
           imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/b1/528a9e80403b8c02.png',
           desc:'玩转长隆'
-      }]
+      }],
+      swiperOption:{
+          autoplay:false
+      }
+   
     };
   },
   computed:{
@@ -64,6 +68,7 @@ export default {
               const page = Math.floor(index/8)
               if(!pages[page]){
                   pages[page] = []
+                 
               }
               pages[page].push(item)
           })
