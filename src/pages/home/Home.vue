@@ -3,12 +3,9 @@
         <home-header></home-header>
         <home-swiper></home-swiper>
         <HomeIcons></HomeIcons>
-<<<<<<< HEAD
         
-=======
         <HomeRecommend></HomeRecommend>
         <HomeWeekend></HomeWeekend>
->>>>>>> origin/index-recommend
         
     </div>
 </template>
