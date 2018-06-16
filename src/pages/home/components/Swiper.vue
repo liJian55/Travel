@@ -19,7 +19,8 @@ data:function (){
     return{
         swiperOption:{
             pagination:'.swiper-pagination',
-            loop:true
+            loop:true,
+            autoplay:5000
         },
         swiperList:[
             {id:'0001',imgUrl:'http://img1.qunarzz.com/piao/fusion/1803/b1/54862f4b1501e202.jpg_750x200_097bb6b3.jpg'},
