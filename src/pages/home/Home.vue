@@ -1,5 +1,6 @@
 <template>
     <div>
+        00
         <home-header :city="city"></home-header>
         <home-swiper :swiperList="swiperList"></home-swiper>
         <HomeIcons :iconList="iconList"></HomeIcons>
