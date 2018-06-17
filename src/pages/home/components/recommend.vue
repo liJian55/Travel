@@ -17,24 +17,12 @@
 <script>
 export default{
     name:'recommend',
+    props:{
+        recommendList:Array
+    },
     data(){
         return{
-            recommendList:[{
-                id:"0001",
-                imgUrl:"http://img1.qunarzz.com/sight/p0/1709/41/411f234d79457081a3.img.jpg_200x200_ea02ef99.jpg",
-                title:"长隆野生动物世界",
-                desc:"来广州来长隆，就对了，就够了~"
-            },{
-                id:"0002",
-                imgUrl:"http://img1.qunarzz.com/sight/p0/1601/3d/3dc7f222d6bca6a790.img.jpg_200x200_e0bb3017.jpg",
-                title:"广州花城汇MAG环球魔幻世界",
-                desc:"来广州来长隆，就对了，就够了~2"
-            },{
-                id:"0003",
-                imgUrl:"http://img1.qunarzz.com/sight/p0/1507/9e/7b5e0a44cb0310280b1aeb2a8dd94de8.water.jpg_200x200_3c429960.jpg",
-                title:"长隆国际大马戏剧院",
-                desc:"来广州来长隆，就对了，就够了~3"
-            }]
+          
         }
     }
 
